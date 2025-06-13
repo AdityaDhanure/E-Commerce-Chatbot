@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-header nav {
+  margin-bottom: 10px;
+}
+
+.App-header nav a {
+  color: #61dafb;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.App-header nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f0f2f5;
+}
+
+.logout-button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  margin: 0 10px;
+  padding: 3px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logout-button:hover {
+  background-color: #d14644;
+}
+
+.login-button {
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  margin: 0 10px;
+  padding: 3px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #057bdb;
+}

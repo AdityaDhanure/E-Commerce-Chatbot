@@ -1,0 +1,43 @@
+
+# Python
+*.pyc
+*.pyd
+*.pyo
+__pycache__/
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.egg-info/
+sdist/
+var/
+pip-wheel-metadata/
+.tox/
+.env
+
+# Virtual Environment
+venv/
+env/
+
+# Database
+*.sqlite3
+/db.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# IDEs
+.idea/ # PyCharm
+.vscode/ # VS Code (if not shared by all devs)
+
+# Operating System Files
+Thumbs.db # Windows
+
+# Uploaded Media and Static Files (if served locally)
+/media/
+/static_collected/
+
+# Logs
+*.log

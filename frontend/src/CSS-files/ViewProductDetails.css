@@ -1,0 +1,136 @@
+.product-details {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px auto; /* Center the component with some margin */
+    max-width: 800px; /* Limit width for readability */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text within content */
+}
+
+.product-details img {
+    height: 25em;
+    max-width: 100%; /* Responsive image */
+    border-radius: 10px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.product-details h1 {
+    height: 3.5em; /* Ensure consistent height */
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.product-details p {
+    height: 2em; /* Ensure consistent height */
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+    max-width: 600px; /* Limit description width */
+}
+
+.product-details p:first-of-type { /* Style for description paragraph */
+    font-style: italic;
+    color: #666;
+}
+
+.product-details p:last-of-type { /* Style for price paragraph */
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #007bff; /* Primary brand color */
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.product-details h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #423a51;
+    margin-bottom: 15px;
+    text-transform: uppercase; /* Uppercase for section titles */
+}
+
+.product-details button {
+    background-color: #28a745; /* Success green */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px; /* Very rounded button */
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3); /* Soft shadow */
+    text-transform: uppercase; /* Uppercase text for button */
+    letter-spacing: 0.5px;
+}
+
+.product-details button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+    box-shadow: 0 8px 20px rgba(40, 167, 69, 0.4);
+}
+
+.product-details button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(40, 167, 69, 0.3);
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 768px) {
+    .product-details {
+        padding: 25px;
+        margin: 15px;
+    }
+
+    .product-details h1 {
+        font-size: 2.2em;
+    }
+
+    .product-details p {
+        font-size: 1em;
+    }
+
+    .product-details p:last-of-type {
+        font-size: 1.6em;
+    }
+
+    .product-details button {
+        padding: 12px 25px;
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-details {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .product-details h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    .product-details p {
+        font-size: 0.95em;
+    }
+
+    .product-details p:last-of-type {
+        font-size: 1.4em;
+    }
+
+    .product-details button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,9 @@
+Django
+djangorestframework
+deepseek
+openai
+djangorestframework-simplejwt
+python-dotenv
+Faker
+django-filter
+psycopg2-binary  # For PostgreSQL database connectivity
