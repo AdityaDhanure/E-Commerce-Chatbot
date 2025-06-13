@@ -76,15 +76,15 @@ Before you begin, ensure you have the following installed:
 4.  **Set up Environment Variables:**
     Create a `.env` file in your `backend` directory and add your environment variables.
     ```env
-# Environment variables for the backend application 
-# DEEPSEEK R1 free model, visit https://openrouter.ai/deepseek/deepseek-r1:free to create your own
+    # Environment variables for the backend application 
+    # DEEPSEEK R1 free model, visit https://openrouter.ai/deepseek/deepseek-r1:free to create your own
     DEEPSEEK_API_KEY = <your-API-key> 
     DEEPSEEK_BASE_URL='https://openrouter.ai/api/v1'
 
-# For token-based authentication
+    # For token-based authentication
     SECRET_KEY = <your-secret-key>
 
-# Database configuration
+    # Database configuration
     DB_ENGINE = django.db.backends.postgresql
     DB_NAME = <your-db-name>
     DB_USER = <your-db-user-name>
