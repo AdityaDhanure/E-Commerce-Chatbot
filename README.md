@@ -307,4 +307,8 @@ During the development of this project, several common challenges were encounter
 * Implementation of advanced filtering and sorting options on the product search page.
 * Adding user review and rating functionalities.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
 ---
